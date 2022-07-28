@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Meme generator</title>
+    </head>
+    <body>
+        <div id="container">
+            <div id="form-container">
+                <form id="my-form">
+                <fieldset>
+                    <legend>Meme Generator</legend>
+                <label>Upload file:</label>
+                <input type='text' placeholder="Picture URL" id="linkInput">
+                <label>Top text:</label>
+                <input type="text" placeholder="Top text" id="topInput">
+                <label>Bottom text:</label>
+                <input type='text' placeholder='Bottom text' id="bottomInput">
+                <button type="submit">Submit</button>
+            </fieldset>
+
+                </form>
+            </div>
+            <div id="div">
+                <div class="meme-container">
+                    <img class="img" src="https://c.tenor.com/qr1kVztk6uwAAAAC/sleepy-bed-time.gif" alt="sleep">
+                    <div class="context">
+                        <p class="toptext">What a day!!</p>
+                        <p class="bottomtext">I'm so sleepy</p>
+                    </div>
+                    <div class="blanket">
+                        <div class="blanket-text">click to delete</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

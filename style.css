@@ -1,0 +1,115 @@
+label {
+    display: block;
+
+}
+#my-form {
+    width:600px;
+    height:800px;
+    margin:0 auto;
+    font-size:30px;
+    color:#0f0e00;
+    display:relative;
+    border-radius:5px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+body{
+    background-color:rgb(138, 154, 247);
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 20px;
+    margin-bottom:20px;
+    font-family:Bradley Hand, cursive;
+}
+button {
+    width:100%;
+    background-color:rgb(65, 3, 165);
+    color:white;
+    padding:15px 20px;
+    margin:8px 0;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:20px;
+    font-family:Bradley Hand, cursive;
+}
+button:hover{
+    background-color:rgb(5, 53, 97);
+}
+legend{
+    text-align:center;
+    font-size:60px;
+}
+.context{
+    position: absolute;
+    display:flex;
+    left:0;
+    top:20;
+
+    bottom:0px;
+    height:100%;
+    width:100%;
+    color:white;
+    font-size: 2rem;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.meme-container{
+    position:relative;
+    margin-left:20px;
+}
+#div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-left:20px;
+    margin-bottom:20px;
+    border-radius:4px;
+}
+.blanket{
+    position: absolute;
+    height:100%;
+    width:100%;
+    opacity: 0;
+    top: 0; bottom: 0; right: 0;left:0;
+    background-color:gray;
+    border-radius: 5px;
+
+
+
+}
+.blanket-text{
+    position: absolute;
+    text-align:center;
+    font-size:5rem;
+    top:30%;
+    left:10%;
+
+
+}
+.blanket:hover{
+    opacity: 0.5;
+}
+.img{
+
+    width: 500px;;
+    border-radius: 4px;
+    height:400px;
+
+}
+.toptext, .bottomtext{
+    font-family:Comic Sans MS, Comic Sans, cursive;
+}
+
+*{
+    margin:0;
+    box-sizing:border-box;
+}
